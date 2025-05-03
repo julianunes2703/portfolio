@@ -5,3 +5,40 @@ body{
   margin: 0;
   padding: 0;
 }
+/* Para dispositivos desktop e acima (telas maiores) */
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Para tablets e dispositivos de tela média (telas entre 600px e 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .button {
+    width: 100%; 
+  }
+}

@@ -1,0 +1,48 @@
+.habilidades {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .nome-hab {
+    background-color: #FBB8B8; 
+    color: #D66D6D;  /* Cor da letra no logo */
+    border-radius: 50%;
+    width: 50px;  /* Diminui o tamanho do logo */
+    height: 50px;  /* Diminui o tamanho do logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;  /* Diminui o tamanho da fonte */
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 10px;  /* Diminuído o espaçamento extra */
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;  /* Espaço entre os itens da lista */
+  }
+  
+  .linguagens ul li {
+    display: inline-block;
+    margin: 5px;  /* Diminui o espaçamento entre os itens */
+
+  }
+
+  .linguagens{
+    justify-content: center;
+    display: flex;
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    align-items: center;  /* Alinha os itens verticalmente */
+    gap: 20px; /* Espaço entre os itens */
+    margin-top: 20px; /* Distância entre o título e os itens */
+  }
+
+  .react, .git, .python, .figma{
+    width: 50px;
+    height: 50px;
+  }
+  

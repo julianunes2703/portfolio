@@ -1,0 +1,31 @@
+.logo-sobre{
+  text-align: center;
+}
+
+.sobre-container {
+  background-color: #FBB8B8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
+.sobre-container ul {
+  padding-left: 20px; /* Indenta a lista */
+  list-style-type: disc; /* Coloca pontos nos itens da lista */
+  display: block; /* Garante que a lista ocupe toda a largura disponível */
+  list-style-type: disc; /* Coloca pontos nos itens da lista */
+}
+
+.sobre-container ul li {
+  display: block; /* Faz com que cada item da lista seja um bloco, forçando que fique um abaixo do outro */
+  margin-bottom: 10px; /* Adiciona um espaço entre os itens */
+}
+
+.competencias ul li::before {
+  content: '•';
+  margin-right: 10px;
+  color: #D66D6D; /* Cor do ponto */
+}
+

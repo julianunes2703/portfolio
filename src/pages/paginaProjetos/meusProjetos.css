@@ -1,0 +1,51 @@
+.meus-projetos {
+    text-align: center;
+  }
+    
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #FBB8B8;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    color: #D66D6D;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    color: #D66D6D;
+    font-size: 0.9em;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .project-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  

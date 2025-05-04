@@ -36,7 +36,7 @@
   }
   
 
-  
+  /*Repositividade*/
   @media (max-width: 768px) {
     .project-cards {
       flex-direction: column;

@@ -1,42 +1,71 @@
-/* Estilos para o header */
-.rodape{
-    background-color: #FBB8B8;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
 
-  }
-  
+.rodape {
+  background-color: #FBB8B8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.rodape-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo-rodape h1 {
+  color: #D66D6D;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 100px; 
+  margin-bottom: 10px;
+}
+
+.me-siga a {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.me-siga i {
+  font-size: 30px;
+  color: #D66D6D;
+  transition: all 0.3s ease;
+}
+
+.me-siga i:hover {
+  color: #F7D1D1;
+  transform: scale(1.2);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
   .rodape-content {
-    display: flex;
-    justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
   }
-  
+
   .logo-rodape h1 {
-    color: #D66D6D;  
-    font-size: 1.5em;  
-    font-weight: bold;
-    margin: 0;
-    margin-right: 300px;
-    margin-bottom: 10px;
+      margin-right: 0;
+      text-align: center;
   }
-  
+
+  .me-siga {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+  }
+
   .me-siga a {
-    margin: 0 30px;  
-    text-decoration: none; 
+      margin: 0 10px;
   }
-  
+
   .me-siga i {
-    font-size: 30px; 
-    color: #D66D6D; 
-    transition: all 0.3s ease; 
+      font-size: 25px; 
   }
-  
-  .me-siga i:hover {
-    color: #F7D1D1; 
-    transform: scale(1.2);  
-  }
-  
-  
-  
+}

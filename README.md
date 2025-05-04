@@ -58,6 +58,7 @@ O projeto já está hospedado na **Vercel**. Para acessar o portfólio, utilize 
 [Portfolio Online - Julia Nunes](https://portfolio-ol3ksrq0t-julias-projects-1093fd7b.vercel.app/)
 
 
+![image](https://github.com/user-attachments/assets/4c3c9ddd-ffa5-4f92-aab0-da334f954553)
 
 
 

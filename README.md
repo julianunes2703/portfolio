@@ -49,4 +49,15 @@ Este projeto visa não só exibir meu trabalho, mas também demonstrar minhas co
     npm run build
     ```
 
+    ## Guia de Deploy
+
+### Hospedagem no Vercel
+
+O projeto já está hospedado na **Vercel**. Para acessar o portfólio, utilize o seguinte link:
+
+[Portfolio Online - Julia Nunes](https://portfolio-ol3ksrq0t-julias-projects-1093fd7b.vercel.app/)
+
+
+
+
 

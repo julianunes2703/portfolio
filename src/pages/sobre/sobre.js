@@ -15,9 +15,6 @@ function Sobre(){
                 <section class="competencias">
                     <h2>Competências</h2>
                     <ul>
-                        <li>Linguagens de Programação </li>
-                        <li>Frameworks </li>
-                        <li>Ferramentas de Desenvolvimento </li>
                         <li>Trabalho em grupo </li>
                         <li>Organizada </li>
                         <li>Responsável </li>

@@ -32,6 +32,7 @@
   
   .social-links a:hover {
     color: #E49494;  /* Cor ao passar o mouse */
+    transform: scale(1.2);
   }
   
   .form-container {

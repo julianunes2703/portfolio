@@ -6,7 +6,7 @@ function Habilidades(){
         <div>
             <div className='habilidades'>
                 <h1 className='logo-hab'>Habilidades</h1>
-
+                
                 <div className='linguagens'>
                     <ul>
                         <li><p className='nome-hab'><img src={require('./python-rosa.png')} alt="python" className='python'/></p></li>

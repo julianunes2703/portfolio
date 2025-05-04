@@ -1,6 +1,6 @@
 /* Estilos para o header */
 .rodape{
-    background-color: #FBB8B8;  /* Cor de fundo do header */
+    background-color: #FBB8B8;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,8 @@
   }
   
   .logo-rodape h1 {
-    color: #D66D6D;  /* Cor para o texto do logo */
-    font-size: 1.5em;  /* Ajuste o tamanho da fonte */
+    color: #D66D6D;  
+    font-size: 1.5em;  
     font-weight: bold;
     margin: 0;
     margin-right: 300px;
@@ -23,19 +23,19 @@
   }
   
   .me-siga a {
-    margin: 0 30px;  /* Adiciona um espaço maior entre os ícones */
-    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 30px;  
+    text-decoration: none; 
   }
   
   .me-siga i {
-    font-size: 30px; /* Aumenta o tamanho dos ícones */
-    color: #D66D6D; /* Cor rosa */
-    transition: all 0.3s ease; /* Efeito de transição suave */
+    font-size: 30px; 
+    color: #D66D6D; 
+    transition: all 0.3s ease; 
   }
   
   .me-siga i:hover {
-    color: #f7a1c3;  /* Muda para um tom mais claro de rosa ao passar o mouse */
-    transform: scale(1.2);  /* Aumenta o ícone ao passar o mouse */
+    color: #f7a1c3; 
+    transform: scale(1.2);  
   }
   
   

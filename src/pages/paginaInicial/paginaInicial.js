@@ -9,20 +9,20 @@ import Rodape from '../../components/rodape/rodape';
 function PaginaInicial() {
   return (
     <div>
-      <div className="header">
-        <Header />
-      </div>
+          <div className="header">
+            <Header />
+          </div>
       <div className="perfil">
-        <div>
-          <h1>Julia</h1>
-          <p>Estudante de Ciência da computação (UFSJ) |</p>
-          <p>Desenvolvedora em formação</p>
-        </div>
-        <img 
-          src={require('./perfil-julia.png')} 
-          alt="perfil" 
-          className="profile-img" 
-        />
+            <div>
+              <h1>Julia</h1>
+              <p>Estudante de Ciência da computação (UFSJ) |</p>
+              <p>Desenvolvedora em formação</p>
+            </div>
+            <img 
+              src={require('./perfil-julia.png')} 
+              alt="perfil" 
+              className="profile-img" 
+            />
       </div>
                     <div className='habilidades'>
                         <Habilidades></Habilidades>

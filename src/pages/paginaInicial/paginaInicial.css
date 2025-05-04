@@ -1,25 +1,25 @@
 body{
     background-color: #F7D1D1;
     color: #D66D6D;
-    text-align: left;
+    text-align: left; /*configuração global*/
 }
 
 .perfil {
     display: flex;
-    align-items: center;  /* Alinha a imagem e o texto verticalmente */
-    gap: 40px;  /* Espaçamento entre a imagem e o texto */
+    align-items: center; 
+    gap: 40px; 
     margin-left: 400px;
     margin-top: 50px;
   }
   
   .perfil div {
-    display: block;  /* Faz o texto ser exibido um abaixo do outro */
+    display: block;  
   }
   
   .profile-img {
-    width: 150px;  /* Tamanho da imagem */
-    height: 150px;  /* Tamanho da imagem */
-    border-radius: 20px;  /* Bordas arredondadas */
-    object-fit: cover;  /* Garante que a imagem não seja distorcida */
+    width: 150px; 
+    height: 150px;  
+    border-radius: 20px;  
+    object-fit: cover;  /* imagem não distorcida */
   }
   

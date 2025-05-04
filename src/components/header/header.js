@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';  // Importando Link
+import { Link, useNavigate } from 'react-router-dom';  
 import './header.css';
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
         </div>
         <nav>
           <ul>
-            {/* Usando Link do React Router para navegação */}
+            
             <li><Link to="/sobre">Sobre</Link></li>
             <li><Link to="/meusprojetos">Projetos</Link></li>
             <li><Link to="/contato">Contato</Link></li>

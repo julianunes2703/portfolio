@@ -1,4 +1,4 @@
-/* Estilos para o header */
+
 .header {
     display: flex;
     justify-content: center;
@@ -12,23 +12,23 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Limita o tamanho do conteúdo */
+    max-width: 1200px; 
   }
   
-/* Estilos para o logo */
+
 .logo {
     background-color: #FBB8B8;
-    color: #D66D6D; /* Cor da letra no logo */
+    color: #D66D6D;
     border-radius: 50%;
-    width: 50px; /* Diminui o tamanho do logo */
-    height: 50px; /* Diminui o tamanho do logo */
+    width: 50px; 
+    height: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.7em; /* Diminui o tamanho da fonte */
+    font-size: 0.7em;
     font-weight: bold;
     cursor: pointer;
-    margin-left: auto; /* Move o logo mais para a esquerda */
+    margin-left: auto; 
   }
 
   .logo:hover {
@@ -44,7 +44,7 @@
   }
   
   nav ul li {
-    margin: 0 20px; /* Espaçamento entre os itens do menu */
+    margin: 0 20px; 
   }
   
   nav ul li a {

@@ -54,14 +54,42 @@ ul {
 
 /* Responsividade*/
 @media (max-width: 768px) {
-  .react, .git, .python, .figma {
-      width: 40px; 
-      height: 40px;
+  .habilidades {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
   }
 
   .nome-hab {
-      width: 45px; 
-      height: 45px;
-      font-size: 0.8em; 
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 0.8em; 
+  }
+
+  .habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
+  .habilidades li {
+    margin: 10px;
+  }
+
+ 
+  .habilidades img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-hab {
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
+
+

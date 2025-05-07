@@ -6,7 +6,7 @@ body{
   padding: 0;
 }
 /* Para dispositivos desktop e acima (telas maiores) */
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .container {
     flex-direction: row;
   }
@@ -16,29 +16,4 @@ body{
   }
 }
 
-/* Para tablets e dispositivos de tela média (telas entre 600px e 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
 
-  h1 {
-    font-size: 2rem;
-  }
-}
-
-
-@media (max-width: 600px) {
-  .header, .rodape, .contato, .perfil, .meusprojetos, .projetos, .habilidades {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .button {
-    width: 100%; 
-  }
-}

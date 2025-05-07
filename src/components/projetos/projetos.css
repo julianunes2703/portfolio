@@ -78,7 +78,7 @@ ul {
 /* Responsividade */
 @media (max-width: 768px) {
   .churrascometro, .liftly {
-      width: 250px; 
+      width: 200px; 
       height: 200px; 
   }
 

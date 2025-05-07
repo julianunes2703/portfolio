@@ -45,6 +45,10 @@
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
+  .rodape{
+    max-width: 768px;
+
+  }
   .rodape-content {
       flex-direction: column;
       align-items: center;

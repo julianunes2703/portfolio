@@ -13,7 +13,6 @@ function Header() {
         </div>
         <nav>
           <ul>
-            
             <li><Link to="/sobre">Sobre</Link></li>
             <li><Link to="/meusprojetos">Projetos</Link></li>
             <li><Link to="/contato">Contato</Link></li>

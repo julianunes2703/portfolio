@@ -24,7 +24,7 @@ function Contato() {
   const handleSubmit = async (e) => {
     e.preventDefault();
   
-      //API para receber mensgens no email
+      //API para receber mensagens no email
     try {
       const response = await fetch("https://formsubmit.co/ajax/julianunessouza@gmail.com", {
         method: "POST",
@@ -100,7 +100,6 @@ function Contato() {
       required
     />
 
-    {/* Campo oculto opcional */}
     <input type="hidden" name="_captcha" value="false" />
 
     <button type="submit">Enviar</button>

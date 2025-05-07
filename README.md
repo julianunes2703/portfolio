@@ -10,9 +10,9 @@ Este projeto visa não só exibir meu trabalho, mas também demonstrar minhas co
 
 ## Tecnologias Usadas
 
-- **React** (versão recomendada: 17.x ou superior): Framework JavaScript para construção de interfaces.
-- **CSS** (versão recomendada: qualquer versão compatível com React): Usado para estilização das páginas.
-- **JavaScript** (ES6+): Linguagem principal para implementar funcionalidades interativas.
+- **React** : Framework JavaScript para construção de interfaces.
+- **CSS** : Usado para estilização das páginas.
+- **JavaScript** : Linguagem principal para implementar funcionalidades interativas.
 
 ## Instalação
 

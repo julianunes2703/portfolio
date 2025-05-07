@@ -24,6 +24,7 @@ function Contato() {
   const handleSubmit = async (e) => {
     e.preventDefault();
   
+      //API para receber mensgens no email
     try {
       const response = await fetch("https://formsubmit.co/ajax/julianunessouza@gmail.com", {
         method: "POST",
@@ -52,6 +53,7 @@ function Contato() {
       <div className='header'>
         <Header />
       </div>
+
       <div className="contato">
         <div className="contato-header">
           <h1>Contato</h1>

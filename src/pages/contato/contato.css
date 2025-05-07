@@ -57,15 +57,18 @@
 
 
 input, textarea {
-  width: 100%;
+  width: 90%;  /* Ou a largura desejada */
+  max-width: 500px;  /* Defina um limite máximo de largura */
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px auto; /* Centraliza o campo */
   background-color: #E49494;
   color: white;
   border: none;
   border-radius: 15px;
   font-size: 1rem;
+  display: block; /* Garante que o campo seja exibido como bloco para centralizar */
 }
+
 
 textarea {
   height: 150px; 
@@ -73,16 +76,20 @@ textarea {
 
 
 button {
-  width: 100%;
-  padding: 10px;
+  width: auto; /* Ajusta o tamanho do botão ao conteúdo */
+  padding: 12px 30px; /* Ajusta o espaçamento interno */
   background-color: #D66D6D;
   border: none;
   border-radius: 15px;
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
+  margin-top: 20px; /* Espaço acima do botão */
+  margin-left: auto; /* Centraliza o botão */
+  margin-right: auto; /* Centraliza o botão */
+  display: block; /* Garante que o botão será exibido como bloco */
+  transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
 }
-
 button:hover {
   background-color: #FBB8B8; 
   transform: scale(1.05); 
